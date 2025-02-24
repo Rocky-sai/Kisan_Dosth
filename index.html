@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kisan Dosth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Logo and Navigation -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Kisan Dosth Logo" class="logo-img">
+            <span>Kisan Dosth</span>
+        </div>
+        <nav>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">FAQ</a>
+            <button onclick="redirectToLogin()">Login</button>
+            <button onclick="redirectToRegister()">Register</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Parallax Effect -->
+    <section class="hero">
+        <h1>Welcome to Kisan Dosth</h1>
+        <p>Your one-stop solution for crop management and agricultural support.</p>
+    </section>
+
+    <!-- User Role Selection Section -->
+    <section class="user-roles">
+        <h2>Select Your Role</h2>
+        <div class="role-cards">
+            <div class="role-card" onclick="selectRole('Farmer')">
+                <img src="images/farmer-icon.png" alt="Farmer Icon">
+                <h3>Farmer</h3>
+                <p>Manage crops, access government benefits, and get personalized yield advice.</p>
+            </div>
+            <div class="role-card" onclick="selectRole('Pathologist')">
+                <img src="images/pathologist-icon.png" alt="Pathologist Icon">
+                <h3>Pathologist</h3>
+                <p>Diagnose crop issues and assist farmers with expert advice.</p>
+            </div>
+            <div class="role-card" onclick="selectRole('Marketing Person')">
+                <img src="images/marketing-icon.png" alt="Marketing Icon">
+                <h3>Marketing Person</h3>
+                <p>Promote agricultural products and connect with farmers.</p>
+            </div>
+            <div class="role-card" onclick="selectRole('Customer')">
+                <img src="images/customer-icon.png" alt="Customer Icon">
+                <h3>Customer</h3>
+                <p>Discover and buy fresh produce and agricultural products.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts.js" defer></script>
+</body>
+</html>
