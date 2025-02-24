@@ -61,7 +61,7 @@ header button {
 
 /* Hero Section with Parallax Background */
 .hero {
-  background: url('images/background.jpg') no-repeat center center/cover;
+  background: url('assets/background.jpg') no-repeat center center/cover;
   color: #fff; /* Make text color white for contrast */
   text-align: center;
   padding: 6rem 2rem;
